@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+
+    <script type="text/javascript">
+
+        var number = prompt("Please enter a number");
+        var fact = 1;
+
+        if (number == 0) {
+            console.log(`The factorial of ${number} is 1`)
+        }
+        else if (number < 0) {
+            console.log(`The Factorial of -ve numbers is not Possible`);
+        }
+
+        else {
+            for (let index = 1; index <= number; index++) {
+                fact = fact * index;
+                console.log(`Fractional Valueof the ${number} is ${fact}`);
+            }
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

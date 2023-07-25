@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Number</title>
+
+    <script type="text/javascript"> 
+
+    function check(p,q,r) {
+        if(p>=q && q>=r) {
+            return p;
+        }
+        else if (q>=p && q>=r){
+            return q;
+        }
+        else {
+            return r;   
+        }
+    }
+
+    var a = prompt("Please enter your First number");
+    var b = prompt("Please enter your Second number");
+    var c = prompt("Please enter your Third number");
+
+    var x = check(a,b,c);
+    console.log(`${a}, ${b}, ${c}: Largest = ${x}`); 
+    
+    </script>
+
+
+</head>
+
+<body>
+    
+</body>
+
+</html>

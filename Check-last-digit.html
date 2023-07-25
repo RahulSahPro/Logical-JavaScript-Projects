@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Last Digit</title>
+
+    <script type="text/javascript">
+        var a = prompt("Please Enter your A number"); 
+        var b = prompt("Please Enter your B number"); 
+        var c = prompt("Please Enter your C number"); 
+        
+        var res1 = a%10;
+        var res2 = b%10;
+        var res3 = c%10;
+
+        if (res1 === res2 && res1 === res3) {
+            console.log(`${a}, ${b}, ${c} are having same last digit number`);
+        }
+        else {
+            console.log(`${a}, ${b}, ${c} are not having same last digit number`)
+
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
